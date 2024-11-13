@@ -16,7 +16,7 @@ export default function Index() {
       </View>
 
       <View style={estilos.botoes}>
-        <Link href="/agradecimentos" asChild>
+        <Link href="/relatorio" asChild>
           <TouchableOpacity style={estilos.escolha}>
               <Image style={{height: 75, width: 75}} source={require('@/assets/images/pessimo.png')} />
               <Text style={estilos.feedback}>Péssimo</Text>
